@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}   
+
+iframe{
+    border-radius: 0.6rem;
+}
+
+h1{
+    margin: 0;
+}
+
+.video_section{
+    position: relative;
+    padding: 2rem;
+    display: flex;  
+    width: 100%;
+    background-color: #9D0208;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.header-background::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    filter: brightness(0.4);
+    background-image: url(/assets/imgs/bgc.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80rem;
+}
+
+.video-info{
+    padding-left: 2rem;
+    color: white;
+}
+
+
+.webinar-info{
+    width: 60%;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.title-webinar{
+    width: 90%;
+    font-weight: 300;
+    font-size: 48px;
+    padding-bottom: 2.6rem;
+}
+
+.webinar-description{
+    color: black;
+    width: 90%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.form{
+    display: flex;
+    margin-top: 2rem;   
+}
+
+.input-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#name{
+    width: 100%;
+}
+
+input{
+    padding: 0.5rem;
+    margin: 0;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    word-wrap: break-word;
+    
+}
+
+button{
+    font-weight: 400;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    background-color: #9D0208;
+    color: white;
+    border:none;
+}
+
+
+.title_2{
+    font-weight: 400;
+    font-size: 2.5rem;
+    width: 15rem;
+    margin-right: 22rem;
+}
+
+.reviews{   
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+
+.reviews-block{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.review-author{
+    padding-bottom: 0.5rem;
+    font-weight: 800;
+}
+
+.review-comment{
+    width: 35rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.review-date{
+    color: rgb(143, 143, 143);
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
